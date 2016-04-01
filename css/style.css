@@ -15,18 +15,23 @@ a {
 	text-align: center;
 	width: 650px;
 	height: 643px;
+	margin: 0 auto;
 }
 .signupForm {
 	width: 650px;
 	height: 643px;
-	text-align: center
+	text-align: center;
 }
 
 .signup {
-	display: inline-block;
+	/*display: inline-block;*/
+	float: left;
+	width: 302px;
 }
 .login {
-	display: inline-block;
+	/*display: inline-block;*/
+	float: right;
+	width: 302px;
 }
 
 .current-user img {

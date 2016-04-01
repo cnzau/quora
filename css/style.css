@@ -1,11 +1,32 @@
 body {
 	background-image: url(../img/img00.png);
+	background-size: cover;
+	margin: 0;
+	text-align: center;
 }
 div {
 	text-align: center;
 }
 a {
 	text-decoration: none;
+}
+
+.container {
+	text-align: center;
+	width: 650px;
+	height: 643px;
+}
+.signupForm {
+	width: 650px;
+	height: 643px;
+	text-align: center
+}
+
+.signup {
+	display: inline-block;
+}
+.login {
+	display: inline-block;
 }
 
 .current-user img {

@@ -21,21 +21,64 @@ a {
 	width: 650px;
 	height: 643px;
 	text-align: center;
+	padding-top: 4em;
 }
-
+.logo img {
+	height: 3em;
+}
+.signinLogin {
+	width: 650px;
+	height: 226px;
+	padding: 22px;
+	border: solid #E2E2E2 1px;
+	border-radius: 2px;
+}
 .signup {
-	/*display: inline-block;*/
 	float: left;
-	width: 302px;
+	width: 302px;	
 }
 .login {
-	/*display: inline-block;*/
 	float: right;
 	width: 302px;
+	border-left: solid #E2E2E2 1px; 
 }
+.login-title {
+	color: #7D6666;
+	float: right;
+	width: 270px;
+	height: 48px;
+	text-align: left;
+}
+.current-user {
+	border: solid #E2E2E2 1px;
+	border-radius: 2px;
+	float: right;
+	width: 270px;
+	height: 48px;
+	text-align: left;
+	margin-bottom: 8px;
 
+}
 .current-user img {
 	width: 35px;
 	height: 35px;
 	border-radius: 50%;
+	align: middle;
+	margin: 5px;
+}
+.current-user a span {
+	display: inline-block;
+	margin: -3px 1px;
+}
+.current-user a .x {
+	float: right;
+}
+.another-user {
+	float: right;
+	width: 270px;
+	height: 48px;
+	text-align: left;
+}
+.another-user a {
+	color: #A2AFB8;
 }
